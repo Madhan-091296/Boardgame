@@ -23,7 +23,7 @@ pipeline {
             }
         }
 
-        stage('Build and Test') {
+        stage('Compile Code') {
             steps {
                 sh 'mvn clean package'
             }
